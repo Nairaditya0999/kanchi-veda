@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Kanchiveda – Saree Catalog</title>
+  <meta name="description" content="Kanchiveda saree catalog – Semi Silk, Kanchicotton and Soft Silk sarees." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER – maroon bg, kanchiveda white text ===== -->
+  <header class="site-header">
+    <span class="header-brand-text">kanchiveda</span>
+  </header>
+
+  <!-- ===== CATEGORY TABS ===== -->
+  <nav class="tab-bar">
+    <button class="tab active" data-cat="semi-silk">Semi Silk</button>
+    <button class="tab"        data-cat="kanchicotton">Kanchicotton</button>
+    <button class="tab"        data-cat="soft-silk">Soft Silk</button>
+  </nav>
+
+  <!-- ===== CATALOG ===== -->
+  <main class="catalog">
+
+    <!-- SEMI SILK -->
+    <section class="cat-section active" id="cat-semi-silk">
+      <div class="product-grid">
+
+        <div class="product-card"
+             data-price="3,299">
+          <div class="card-img-wrap">
+            <img src="C:\Users\Karthik\Downloads\sss1.jpeg" alt="Semi Silk Set 1" loading="lazy" />
+            <span class="expand-icon">⤢</span>
+          </div>
+          <div class="card-info">
+            <span class="card-price">3,299</span>
+          </div>
+        </div>
+
+        <div class="product-card"
+             data-price="2,999">
+          <div class="card-img-wrap">
+            <img src="C:\Users\Karthik\Downloads\sss2.jpeg" alt="Semi Silk Set 2" loading="lazy" />
+            <span class="expand-icon">⤢</span>
+          </div>
+          <div class="card-info">
+            <span class="card-price">2,999</span>
+          </div>
+        </div>
+
+        <div class="product-card"
+             data-price="1,499-1,999">
+          <div class="card-img-wrap">
+            <img src="C:\Users\Karthik\Downloads\sss3.jpeg" alt="Semi Silk Set 3" loading="lazy" />
+            <span class="expand-icon">⤢</span>
+          </div>
+          <div class="card-info">
+            <span class="card-price">1,499-1,999</span>
+          </div>
+        </div>
+
+        <div class="product-card"
+             data-price="4,299-4,499">
+          <div class="card-img-wrap">
+            <img src="C:\Users\Karthik\Downloads\sss4.jpeg" alt="Semi Silk Set 4" loading="lazy" />
+            <span class="expand-icon">⤢</span>
+          </div>
+          <div class="card-info">
+            <span class="card-price">4,299-4,499</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- KANCHICOTTON -->
+    <section class="cat-section" id="cat-kanchicotton">
+      <div class="product-grid">
+
+        <div class="product-card"
+             data-price="2,299">
+          <div class="card-img-wrap">
+            <img src="C:\Users\Karthik\Downloads\kanchicotton1.jpeg" alt="Kanchicotton Set 1" loading="lazy" />
+            <span class="expand-icon">⤢</span>
+          </div>
+          <div class="card-info">
+            <span class="card-price">2,299</span>
+          </div>
+        </div>
+
+        <div class="product-card"
+             data-price="1,699">
+          <div class="card-img-wrap">
+            <img src="C:\Users\Karthik\Downloads\kanchicotton2.jpeg" alt="Kanchicotton Set 2" loading="lazy" />
+            <span class="expand-icon">⤢</span>
+          </div>
+          <div class="card-info">
+            <span class="card-price">1,699</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SOFT SILK -->
+    <section class="cat-section" id="cat-soft-silk">
+      <div class="product-grid">
+
+        <div class="product-card"
+             data-price="2,299-3,599">
+          <div class="card-img-wrap">
+            <img src="C:\Users\Karthik\Downloads\softsilk.jpeg" alt="Soft Silk Set 1" loading="lazy" />
+            <span class="expand-icon">⤢</span>
+          </div>
+          <div class="card-info">
+            <span class="card-price">2,299-3,599</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== BOTTOM BAR – WhatsApp + Instagram ===== -->
+  <div class="bottom-bar">
+    <a href="https://www.instagram.com/kanchiveda" target="_blank" rel="noopener" class="bottom-btn insta" id="btn-instagram">
+      <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+      </svg>
+      Instagram
+    </a>
+    <a href="https://wa.me/919004714311" class="bottom-btn whatsapp" id="btn-whatsapp">
+      <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.556 4.122 1.527 5.855L.057 23.215a.75.75 0 00.916.916l5.36-1.47A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.93 0-3.735-.518-5.285-1.42l-.377-.22-3.924 1.077 1.077-3.924-.22-.377A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+      </svg>
+      WhatsApp Order
+    </a>
+  </div>
+
+  <!-- ===== FULLSCREEN LIGHTBOX ===== -->
+  <div id="lightbox" class="lightbox">
+    <!-- Close button -->
+    <button id="lb-close" class="lb-close">✕ Close</button>
+
+    <!-- Image -->
+    <div class="lb-img-wrap">
+      <img id="lb-img" src="" alt="" />
+    </div>
+
+    <!-- Caption + Order button -->
+    <div class="lb-footer">
+      <div class="lb-info">
+        <span id="lb-title" class="lb-title"></span>
+        <span id="lb-price" class="lb-price"></span>
+      </div>
+      <a id="lb-order-btn" href="#" target="_blank" rel="noopener" class="lb-order-btn">
+        💬 Enquire on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
